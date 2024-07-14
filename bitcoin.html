@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter</title>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="buttonContainer">
+    <img id="imageButton" class="image-button" src="goodpic.png" alt="Image Button"
+         onmousedown="changeImage('badpic.png')" onmouseup="changeImage('goodpic.png')">
+</div>
+<div id="container">
+    <div id="label">Since you loaded this page...</div>
+    <div id="counter">0</div>
+    <div id="label2"><span id="toggleCounter" class="underline" onclick="toggleCounter()">sats</span> have been lost or stolen</div>
+    <div id="totalLabel" class="totalunderline">Total sats lost</div>
+    <div id="totalCounter">0</div>
+</div>
+
+<footer>
+    <button id="secureButton" onclick="location.href='https://rothbard.eo.page/stn1g'"><span>  Uh...wtf?!?  </span></button>
+</footer>
+
+<script defer src="app.js"></script>
+</body>
+</html>
